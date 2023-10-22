@@ -1,0 +1,19 @@
+.card {
+  background-color: #ffd6e0;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  width: 35%;
+  height: 200px;
+}
+
+h2 {
+  color: #192655;
+}
+
+p {
+  color: #666;
+}

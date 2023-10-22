@@ -1,0 +1,32 @@
+.goals-card {
+  background-color: #ffd6e0;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  width: 35%; /* Set the desired width */
+}
+
+.goals-card h2 {
+  color: #192655;
+}
+
+.goals-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals-card ul li {
+  margin: 10px 0;
+  text-align: left; /* Align text to the left */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+}
+
+.goals-card ul li::before {
+  content: "●"; /* Use a bullet character */
+  color: #ff5733; /* Specify the desired color */
+  margin-right: 10px; /* Adjust spacing between bullet and text */
+}

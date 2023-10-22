@@ -1,0 +1,36 @@
+.contact-card {
+  background-color: #ffd6e0;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  width: 35%; /* Set the desired width */
+}
+
+.contact-card h2 {
+  color: #192655;
+}
+
+.contact-card p {
+  color: #666;
+}
+
+.contact-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-card ul li {
+  margin: 10px 0;
+}
+
+.contact-card ul li a {
+  color: #337dff; /* Link color */
+  text-decoration: none;
+}
+
+.contact-card ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
